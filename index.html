@@ -2,20 +2,30 @@
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="CSS/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Vergara Art and Design</title>
     </head>
-    <body>
         <header>
-          <div class="topnav" id="">
+          <div class="topnav" id="topnav">
             <img class="logo" href="#home" src="images/logomaybe.png">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
             <a href="#contact">Contact</a>
             <a class="active" href="#about">About</a>
             <a href="#gdes">Graphic Design</a>
             <a href="#art">Art</a>
             <a href="#ux">UX/UI</a>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+               <a href="#contact">Contact</a>
+               <a class="active" href="#about">About</a>
+               <a href="#gdes">Graphic Design</a>
+               <a href="#art">Art</a>
+               <a href="#ux">UX/UI</a>
+            </div>
+            </div>
           </div>
         </header>
         <section>
@@ -183,5 +193,6 @@
             </div>
           </div>
         </footer>
+        <script src="jquery/index.js"></script>
     </body>
 </html>
