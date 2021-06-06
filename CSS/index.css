@@ -29,7 +29,7 @@ h3 {
 font: 20pt;
 font-weight: 600;
 }
-button {
+.button {
   background-color: #054159;
   border: none;
   color: #FF96B9;
@@ -43,7 +43,7 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
-button:hover {
+.button:hover {
   color: #F29F05;
 }
  
@@ -107,7 +107,7 @@ button:hover {
     margin-top: 30px;
 }
 .image-container {
-  background-image: url("/Images/changingwindsweb.jpg"); /* The image used - important! */
+  background-image: url("Images/changingwindsweb.jpg"); /* The image used - important! */
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative; /* Needed to position the cutout text in the middle of the image */
@@ -116,7 +116,7 @@ button:hover {
 }
 
 .image-container2 {
-  background-image: url("/Images/castleprintweb.jpg"); /* The image used - important! */
+  background-image: url("Images/castleprintweb.jpg"); /* The image used - important! */
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative; /* Needed to position the cutout text in the middle of the image */
